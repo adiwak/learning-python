@@ -1,3 +1,6 @@
+video link: https://www.youtube.com/watch?v=Z1Yd7upQsXY&list=PLBZBJbE_rGRWeh5mIBhD-hhDwSEDxogDg&index=1
+
+
 v1 = "first string"
 v2 = "second string"
 
@@ -8,3 +11,7 @@ v2 = temp
  
 print (v1)
 print (v2)
+
+
+
+

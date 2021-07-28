@@ -1,0 +1,19 @@
+video link: https://www.youtube.com/watch?v=AWek49wXGzI&list=PLBZBJbE_rGRWeh5mIBhD-hhDwSEDxogDg&index=2
+date: 27/08/21
+
+name = "Adi"
+height_m = 1.75
+weight_kg = 49
+
+bmi = weight_kg / (height_m ** 2)
+print ("bmi: ")
+print (bmi)
+
+if bmi < 25: 
+    print (name)
+    print ("is not overweight")
+    
+else: 
+    print (name)
+    print ("is overweight")
+

@@ -1,0 +1,15 @@
+miles1 = 5
+miles2 = 30
+miles3 = 535
+
+def convert (miles): 
+    return 1.6 * miles
+    
+    
+
+print ("km : ", convert (miles1) )
+print ("km : ", convert (miles2) )
+print ("km : ", convert (miles3) )
+
+# or i can directly insert a value: 
+print ("km : ", convert (10))

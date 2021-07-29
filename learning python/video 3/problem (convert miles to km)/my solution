@@ -1,0 +1,12 @@
+miles1 = 5
+miles2 = 30
+miles3 = 535
+
+def convert (miles): 
+    km = 1.6 * miles
+    print ("km")
+    print (km)
+
+miles1 = convert (miles1)
+miles2 = convert (miles2)
+miles3 = convert (miles3)

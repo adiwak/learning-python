@@ -1,0 +1,29 @@
+a = [3, 10, 1]
+print(a)
+
+a.append(1)
+print(a)
+
+a.append("hello")
+print(a)
+
+a.append([1, 2])
+print(a)
+
+# pop deletes last item
+a.pop
+print(a)
+
+a.pop
+print(a)
+
+# the order of the list goes in this way --> [0, 1, 2, 3, 4,..]
+# the index starts with 0
+print(a[0])
+
+print (a[3])
+
+# to assign a new value 
+a[0] = 100
+print(a)
+

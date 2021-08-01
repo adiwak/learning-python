@@ -1,0 +1,11 @@
+# problem: interchange banana and microsoft
+
+b = ["banana", "apple", "microsoft"]
+
+temp1 = b[0]
+temp2 = b[2]
+
+b[0] = temp2
+b[2] = temp1
+
+print(b)

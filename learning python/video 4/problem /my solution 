@@ -9,3 +9,12 @@ b[0] = temp2
 b[2] = temp1
 
 print(b)
+
+
+# or a shortcut
+
+b = ["banana", "apple", "microsoft"]
+
+b = [b[2], b[1], b[0]]
+
+print(b)

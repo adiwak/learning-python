@@ -1,0 +1,9 @@
+date: 10/08/21
+video link: https://www.youtube.com/watch?v=6TEGxJXLAWQ&list=PLBZBJbE_rGRWeh5mIBhD-hhDwSEDxogDg&index=6
+
+total = 0
+j = 0
+while j <= 5: 
+    total += j
+    print(j ,"  ", total)
+    j += 1

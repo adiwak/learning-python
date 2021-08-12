@@ -1,0 +1,14 @@
+video link: https://www.youtube.com/watch?v=6TEGxJXLAWQ&list=PLBZBJbE_rGRWeh5mIBhD-hhDwSEDxogDg&index=7&ab_channel=CSDojo
+date: 12/08/21
+
+list1 = [5,4,4,3,1,-2,-3,-5]
+total = 0
+i = 0
+while True: 
+    total = total + list1[i]
+    i = i + 1
+    print(i)  
+    if list1[i] <=0: 
+        break
+print(total)
+        

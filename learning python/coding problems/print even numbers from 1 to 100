@@ -1,0 +1,5 @@
+e = 0
+for e in range(100): 
+    if e % 2 == 0: 
+        print(e)
+        e = e + 1

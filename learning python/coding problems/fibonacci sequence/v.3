@@ -1,0 +1,14 @@
+F1 = 0
+F2 = 1
+FNext = 0
+count = 0
+
+while FNext <= 100: 
+    print(FNext)
+    F1 = F2
+    F2 = FNext
+    FNext = F1 + F2
+    count = count + 1
+    
+    if count > 10: 
+        break

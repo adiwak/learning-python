@@ -1,0 +1,22 @@
+calcul = 0
+count = int (input("How many times would you like to procede: ") )
+import random
+
+for i in range(1, count + 1): 
+    
+    x = int ( random.randrange(100) )
+    y = int ( random.randrange(100) )
+
+    verifytotal = x + y
+    print ("Add : ", x, " and ",  y)
+    
+
+    calcul = int(input("Enter total : "))
+
+    if (calcul == verifytotal):
+        print("Your answer is correct")
+
+    else: 
+        print("Your answer is incorrect, here is the correct answer: ", verifytotal)
+    
+    i = i + 1

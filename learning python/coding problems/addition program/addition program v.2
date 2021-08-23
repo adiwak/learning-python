@@ -1,0 +1,32 @@
+calcul = 0
+result = 0
+EndResult = str(" ")
+count = int (input("How many times would you like to procede: ") )
+import random
+
+for i in range(1, count + 1): 
+    
+    x = int ( random.randrange(100) )
+    y = int ( random.randrange(100) )
+
+    verifytotal = x + y
+    print ("Add : ", x, " and ",  y)
+    
+
+    calcul = int(input('Enter total : '))
+
+    i = i + 1
+    
+    Temp = 'The sum of ', x, 'and', y, 'is ', verifytotal
+    if (calcul == verifytotal):
+         Temp = 'Your answer is correct, The sum of ', x, 'and', y, 'is ', verifytotal
+
+    else: 
+         Temp = 'Your answer is incorrect, The sum of ', x, 'and', y, 'is ', verifytotal
+
+    EndResult = str (EndResult) + str (Temp)
+
+
+
+print(EndResult)
+
